@@ -1,0 +1,42 @@
+[
+	{
+		"name":"Barrett Kuethen",
+		"title": "COO",
+		"company": "Flazingo"
+	},
+	{
+		"name":"Scott Kuethen",
+		"title": "CEO",
+		"company": "Flazingo"
+	},
+	{
+		"name":"Ryan Mann",
+		"title": "Product Development",
+		"company": "Amtec"
+	},
+	{
+		"name":"Jason Mogera",
+		"title": "Developer",
+		"company": "J2M Consulting"
+	},
+	{
+		"name":"Dan Cress",
+		"title": "Front End Developer",
+		"company": "Dan Cress Designs"
+	},
+	{
+		"name":"Shaun Moynihan",
+		"title": "Designer",
+		"company": "Elastik"
+	},
+	{
+		"name":"Dan Hinkley",
+		"title": "Partner",
+		"company": "Go Fish Digital"
+	},
+	{
+		"name":"Stephani Jensen",
+		"title": "Business Manager",
+		"company": "Amtec"
+	}
+	]

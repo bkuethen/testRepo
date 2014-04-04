@@ -1,0 +1,29 @@
+		<div class="search">
+			<h1>Directory</h1>
+			<label for="">Search:</label>
+			<input ng-model="query" placeholder="Search for name" autofocus>
+
+			<label>
+				<select ng-model="directoryOrder">
+					<option value="name">Name</option>
+					<option value="company">Company</option>
+					<option value="title">Title</option>
+				</select>
+			</label>
+
+			<label>
+				<input type="radio" ng-model="direction" name="direction" checked>Asc
+			</label>
+			<label>
+				<input type="radio" ng-model="direction" name="direction" value="reverse">Desc
+			</label>
+
+		</div>
+		<ul>
+			<li ng-repeat="item in directory | filter: query | orderBy: directoryOrder:direction" style="border:1px solid black;margin:1em;">
+				<a href="#/detail/{{directory.indexOf(item)}}">
+					<h1>{{item.name}}</h1>
+					<h2>{{item.title + ', ' + item.company}}</h2>
+			</a>
+			</li>
+		</ul>
